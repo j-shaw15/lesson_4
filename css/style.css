@@ -1,21 +1,48 @@
 body {
     background-color: none;
+    color:#0D9DFF;
 }
 
 #header {
     width:100%;
-    background-color: beige;
+    background-color: none;
+    min-height: 80px;
 }
 
 #header > h1 {
-    margin:0;
+    margin: 0;
+    text-align: center;
+    font-family: 'lato',sans-serif;
+    position: relative;
+    transform: translateY(50%);
 }
 
 #nav {
-    width:100%;
-    background-color: aqua;
+    width: 100%;
+    background-color: #0d9dff;
+    min-height: 80px;
+    font-family: 'lato',sans-serif;
+    height: auto;
+}
+#nav > ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    transform: translateY(50%);
 }
 
+#nav > ul > button {
+    min-width: 120px;
+    color: white;
+    background-color: #0CC9E8;
+    border: none;
+    padding: 15px 32px;
+    transition: background-color .25s;
+}
+
+#nav > ul > button:hover {
+    background-color:#00FFDE;
+}
 .menu {
     display:flex;
     background-color:#d7e5f1;
@@ -46,3 +73,13 @@ footer {
 footer > h1 {
     margin:0;
 }
+
+
+/*
+Colors:
+Light Blue: #0D9DFF
+Teal: #0CC9E8
+Bright Teal: #00FFDE
+Green: #0CE88D
+Light Green: #0DFF56
+/*
