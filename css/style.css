@@ -43,6 +43,7 @@ body {
 #nav > ul > button:hover {
     background-color:#00FFDE;
 }
+
 .menu {
     display:flex;
     background-color:#d7e5f1;
@@ -51,15 +52,67 @@ body {
     margin:0;
 }
 
+#middle-wrapper-width {
+    display: flex;
+    font-family: 'lato',sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+}
+    
+
 #middle-wrapper{
         display: flex;
 }
-
-#main-content-wrapper {
-    background-color:greenyellow;
-    width: 80%; 
+.side-by-side {
+    display: flex;
 }
 
+#main-content-wrapper .image-content {
+    text-align: center
+    width: 50%;
+    margin-top: 50px
+}
+
+.image-content > img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.image-content > h4 {
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    color: #0CE88D
+}
+
+.image-content > h4 > a {
+    color: #0CE88D
+}
+
+.image-content > h4 > a:hover {
+    color: #0D9DFF
+}
+
+#main-content-wrapper article {
+    width: 50%;
+    margin-top: 100px
+}
+
+#main-content-wrapper article h2 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+    
+}
+
+#main-content-wrapper article p {
+    max-width: 300px;
+    margin-top: 0 auto;
+    
+}
+#main-content-wrapper #skills {
+    
+}
+/* 10:14 on 4_4*/
 #aisde-content-wrapper {
     background-color:plum;
     width:20%;
